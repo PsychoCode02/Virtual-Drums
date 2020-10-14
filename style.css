@@ -1,0 +1,91 @@
+html, body{
+    background-image: url(bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 100%;
+    width: 100%;
+ }
+.title{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    color: #ffc600;
+    font-size: 80px;
+    text-transform: uppercase;
+    margin: 0;
+    padding-top: 175;
+    padding-bottom: 25px;
+} 
+.note{
+    color:#ffc600;
+    font-size: 25px;
+    text-transform: uppercase;
+
+}
+
+p{
+    text-align: center;
+    display: block;
+    margin-top: -10%;
+    margin-block-start: 1em;
+    margin-inline-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+
+.key{
+
+    display: flex;
+    align-items: center;
+    align-items: center;
+    background: rgba(0, 0,0, 0.2);
+    margin: 1px;
+    text-align: center;
+    margin-left: 5%;
+    margin-top: 15%;
+    display: inline-block;
+    width: 80px;
+    border: 4px solid black;
+    border-radius: 5px;
+    padding: 1rem .5rem;
+    transition: all .07s;
+    color: #ffc600;
+    text-align: center;
+    text-shadow: 0 0 5px black;
+    cursor: pointer;
+}
+
+kbd{
+    background: rgba(0, 0, 0, 0);
+    display: block;
+    font-size: 40px;
+}
+
+.key kbd{
+    font-size: 40px;
+    display: block;
+}
+
+.key .sound{
+    text-transform: capitalize;
+}
+
+
+.playing {
+    border: 5px solid #F5DA55;
+    -webkit-box-shadow: 0 0 20px #F5DA55;
+            box-shadow: 0 0 20px #F5DA55;
+    -webkit-transform: scale(2);
+    -moz-transform: scale(2);
+    -ms-transform: scale(2);
+    -o-transform: scale(2);
+    transform: scale(2);
+}
+
+.sound{ 
+    color: #ffc600;
+    background: none;
+    text-transform: capitalize;
+}
+
