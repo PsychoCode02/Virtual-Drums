@@ -2,7 +2,8 @@ html, body{
     background-image: url(bg.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: center center;
+    background-position: 
+    center center;
     height: 100%;
     width: 100%;
  }
@@ -40,12 +41,10 @@ p{
     align-items: center;
     align-items: center;
     background: rgba(0, 0,0, 0.2);
-    margin: 1px;
+    margin: 50px;
     text-align: center;
-    margin-left: 5%;
-    margin-top: 15%;
     display: inline-block;
-    width: 80px;
+    width: 70px;
     border: 4px solid black;
     border-radius: 5px;
     padding: 1rem .5rem;
@@ -88,4 +87,22 @@ kbd{
     background: none;
     text-transform: capitalize;
 }
+@media (max-width: 1600px){
+    .key{
+        margin: 25px;
+    }
 
+}
+
+@media (max-width: 1319px ){
+    .key{
+        margin: 45px;
+    }
+
+}
+@media (max-width: 591px ){
+    .key{
+        margin: 2px;
+    }
+
+}
